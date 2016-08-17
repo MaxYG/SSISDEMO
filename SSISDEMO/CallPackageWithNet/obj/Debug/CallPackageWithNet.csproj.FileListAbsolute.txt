@@ -1,0 +1,11 @@
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\obj\Debug\CallPackageWithNet.csprojResolveAssemblyReference.cache
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\CallPackageWithNet.exe.config
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\CallPackageWithNet.exe
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\CallPackageWithNet.pdb
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\Microsoft.SqlServer.Dts.Design.dll
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\Microsoft.SqlServer.DTSPipelineWrap.dll
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\Microsoft.SqlServer.ManagedDTS.dll
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\Microsoft.SqlServer.DTSRuntimeWrap.dll
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\bin\Debug\Microsoft.SqlServer.PipelineHost.dll
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\obj\Debug\CallPackageWithNet.exe
+F:\study\SSISDEMO\SSISDEMO\CallPackageWithNet\obj\Debug\CallPackageWithNet.pdb
