@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{909E63CF-26B7-4399-A1E2-C0942E2B82C3}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{0336E05B-DAB1-4F9D-8A2E-41AE9D9F6F4B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -37,11 +37,22 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmJPLs636Vkq1WpkbNmnkigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABmkPxn0f35uqFVZLilGhnAytlWMxbx/Zc2NE2ug1PjggAAAAAOgAAAAAIAACAAAAB6+trXfAqgBSu4VLdn2xYdtjdSLDVgUkBXVUxcw9J9rBAAAADtzo9uK3BxSMxpwmIyByQTQAAAAP1dDSqQvvxf9js4iSdZRzPO9OiCc1Tz3zc8PIaeeIPfbNOEgXny/6wuU7w9vCTlrAy955gPify5Tdwrm3QjKpA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmJPLs636Vkq1WpkbNmnkigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABXRQIns2dZsquKhIPwLWPrzoLb1EUk6Uod3ySn+tj8+AAAAAAOgAAAAAIAACAAAAC5SIkF0TZoObvN6zPp91XtRk5vi9isjkCdIr3+roweYBAAAAAqRbgbkM4Q9VjD1aj20ayHQAAAAOz7i7LnU+3lJIP746o45hG5WHD3gQF5Ew7wtN6EXCTFvotcmfCVfTndN8JH7VAFarlB5e8ktlXVqlMl889gfHw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{6218151A-46AB-45D1-BD6E-E4FD4A709539}"
+      DTS:ObjectName="Parameter1">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">test</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
@@ -407,7 +418,7 @@
 <!--If you manually edit this section and make a mistake, you can delete it. -->
 <!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
-  Version="sql12">
+  Version="8">
   <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
@@ -421,8 +432,8 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="224,174"
-          Size="224,217"
+          PanelSize="224,203"
+          Size="224,246"
           Id="Package\Foreach Loop Container"
           TopLeft="305,184" />
       </GraphLayout>
@@ -436,37 +447,25 @@
         <NodeLayout
           Size="171,42"
           Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
-          TopLeft="500,352" />
+          TopLeft="488,352" />
         <NodeLayout
           Size="139,42"
           Id="Package\Foreach Loop Container\Data Flow Task\Excel Source"
           TopLeft="505,157" />
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Excel Source Output]"
-          TopLeft="574.5,199">
+          TopLeft="574,199">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11,153"
+              EndConnector="0,153"
               Start="0,0"
-              End="11,145.5">
+              End="0,145.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,72.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,72.5"
-                    Point2="0,76.5"
-                    Point3="4,76.5" />
-                  <mssgle:LineSegment
-                    End="7,76.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="7,76.5"
-                    Point2="11,76.5"
-                    Point3="11,80.5" />
-                  <mssgle:LineSegment
-                    End="11,145.5" />
+                    End="0,145.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
